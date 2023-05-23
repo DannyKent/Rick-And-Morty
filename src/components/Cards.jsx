@@ -1,6 +1,6 @@
 import Card from './Card';
 
-export default function Cards(props) {
+function Cards(props) {
    const { characters } = props;
    return (
    <div>
@@ -20,3 +20,6 @@ export default function Cards(props) {
       }
    </div>
 )}
+
+
+export default Cards;
