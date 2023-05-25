@@ -4,6 +4,9 @@ export default function SearchBar(props) {
   return (
     <div className={style.SearchContainer}>
      <input type="search" placeholder="Ingresa tu Busqueda" />
+      <div>
+         <img src={'../assets/logo.png'} alt="" />
+      </div>
       <div className={style.buttonSearch}>
          <button onClick={props.onSearch}>Agregar</button>
       </div>
