@@ -39,11 +39,11 @@
         border-radius: 6px;
 
         color: white;
-        padding: 13px 20px;
+        padding: 8px 10px;
         text-align: center;
         display: inline-block;
         font-size: 13px;
-        margin: 4px 2px;
+        margin: 7px 13px;
         text-transform: uppercase;
 }
 
@@ -52,4 +52,14 @@
     border: 2px;
     color: white;
 
+}
+
+
+.SearchContainer img {
+    border: 1px;
+    border-color: red;
+    display:inline-block;
+    text-align: left;
+    justify-content: left;
+    margin-right: 50%;
 }
